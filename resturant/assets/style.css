@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400;1,500;1,600;1,700&family=Kalam:wght@300;400;700&display=swap');
+
+body {
+    font-family: "Cormorant Garamond", sans-serif;
+    color: grey;
+    line-height: 1.8;
+}
+
+h1,h2,h3,h4,h5,h6 {
+color: black;
+font-weight: 900;
+
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+
+
+
+}
+
+a:hover{
+    color: brown;
+}
+
+img{
+    min-width: 100%;
+    
+}
+section{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    
+}
+.shadow-on-hover{
+    transition: all 0.4s;
+}
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 20px black;
+}
+
+.btn{
+    border: radius 25px;;
+    padding: 20px 40px;
+}
+
+.btn-brand{
+    color: rgb(61, 57, 57);
+    background-color: antiquewhite;
+    font-weight: 600;
+    border-color: rgb(68, 82, 94);
+}
+.btn-brand :hover {
+border-color: rgb(46, 56, 64) ;
+background-color: rgb(188, 171, 148);
+}
+
+.slide-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.433), rgba(0, 0, 0, 0.471)),url(./images/wooden-table-food-top-view-cafe-102532611.jpg);
+}
+
+.slide-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.433), rgba(0, 0, 0, 0.471)),url(./images/wooden-table-food-top-view-cafe-102532611.jpg);
+}
+
+
+.bg-container{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro-text{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.intro-text p{
+    max-width: 600px;
+    margin: 16px auto;
+
+}
+
+#menu .nav .nav-link{
+    background-color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: black;
+    border-radius: 80px;
+
+}
+
+#menu .nav .nav-link.active{
+    background-color :rgb(188, 171, 148) ;
+    color: black;
+}
+
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.433), rgba(0, 0, 0, 0.471)),url(./images/wooden-table-food-top-view-cafe-102532611.jpg); 
+}
+
+footer h6{
+    color: white;
+
+}
+
+footer p{
+    color: white;
+}
